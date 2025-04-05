@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights - Online Cake Shop</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="navbar">
+            <div class="logo-title">
+                <a href="#" class="logo"><img src="logo (1).png" alt="Sweet Delights Logo"></a>
+                <h1 class="logoName">Sweet Delights</h1>
+            </div>
+            <nav class="menu-icons">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search"></i>
+                <i class="fas fa-shopping-cart" id="cart"></i> <span id="cart-count">0</span>
+                <i class="fas fa-user" id="user"></i>
+                <i class="fas fa-bars" id="menu-bar"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>Freshly Baked Cakes, Just for You!</h2>
+            <p>Indulge in our handcrafted cakes made with love and premium ingredients.</p>
+            <div class="home-btn">
+                <a href="#products"><button>Explore Cakes</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section class="product" id="products">
+        <div class="heading">
+            <h2>Our Bestsellers</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="cake1 (1).png" alt="Chocolate Cake">
+                    <h3>Chocolate Heaven</h3>
+                    <p>Rich, decadent chocolate cake with the finest cocoa.</p>
+                    <button class="add-to-cart" data-name="Chocolate Heaven" data-price="499">Add to Cart</button>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cake2 (1).png" alt="Vanilla Cake">
+                    <h3>Classic Vanilla</h3>
+                    <p>Soft, fluffy vanilla cake with buttercream frosting.</p>
+                    <button class="add-to-cart" data-name="Classic Vanilla" data-price="399">Add to Cart</button>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cake3 (1).png" alt="Strawberry Tiramisu">
+                    <h3>Strawberry Tiramisu Bliss</h3>
+                    <p>Layers of chocolate, whipped cream, and strawberries.</p>
+                    <button class="add-to-cart" data-name="Strawberry Tiramisu Bliss" data-price="599">Add to Cart</button>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cake3 (1).png" alt="Strawberry Tiramisu">
+                    <h3>Strawberry Tiramisu Bliss</h3>
+                    <p>Layers of chocolate, whipped cream, and strawberries.</p>
+                    <button class="add-to-cart" data-name="Strawberry Tiramisu Bliss" data-price="599">Add to Cart</button>
+                </div>
+            </div>
+            <div class="swiper-pagination product-pagination"></div>
+            <div class="swiper-button-next product-button-next"></div>
+            <div class="swiper-button-prev product-button-prev"></div>
+        </div>
+    </section>
+      <!-- blogs section start here  -->
+      <section class="blogs" id="blogs">
+
+        <div class=" swiper blogs-row">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="blog-img1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Caramel Bourbon Vanilla Cupcakes</h3>
+                        <p>Rich and moist cupcakes infused with the bold flavors of caramel and bourbon, topped with a creamy vanilla frosting for a perfect balance of sweetness and sophistication.</p>
+                        <p>These gourmet cupcakes are ideal for special occasions or indulgent treats, offering a delightful combination of texture and taste that will captivate your senses.</p>
+                        
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="blog-img2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Caramel Bourbon Vanilla cakes </h3>
+                        <p>A delightful fruit cake layered with the rich flavors of caramel and hints of vanilla, perfectly blended to offer a sweet and fruity indulgence.</p>
+                        <p>Ideal for celebrations or an evening treat, this cake balances the natural sweetness of fruits with the creamy texture of caramel and vanilla, ensuring every bite is a delicious experience.</p>
+                        
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="blog-img3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Coffee Vanilla Butter Cake</h3>
+<p>A luxurious butter cake infused with the bold flavor of coffee and the subtle sweetness of vanilla, creating a perfectly balanced treat for coffee lovers.</p>
+<p>Its rich, moist texture and creamy butter frosting make it ideal for every occasion, offering a delightful burst of flavor in every bite.</p>
+
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="review" id="reviews">
+        <div class="heading">
+            <h2>Client Reviews</h2>
+        </div>
+        <div class="swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="client1.jpg" alt="Akash">
+                    <p>"The cake was soft, fresh, and absolutely tasty."</p>
+                    <h3>Akash</h3>
+                    <p>Software Tester</p>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="client1.jpg" alt="Kiran">
+                    <p>"I ordered a wedding cake, and it was amazing!"</p>
+                    <h3>Kiran</h3>
+                    <p>Engineer</p>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="client1.jpg" alt="Hardy Devid">
+                    <p>"The chocolate cake was rich and delicious! My family loved it!"</p>
+                    <h3>Hardy Devid</h3>
+                    <p>UI/UX Designer</p>
+                </div>
+            </div>
+            <div class="swiper-pagination review-pagination"></div>
+            <div class="swiper-button-next review-button-next"></div>
+            <div class="swiper-button-prev review-button-prev"></div>
+        </div>
+    </section>
+
+     <!-- footer section start here  -->
+
+     <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                    <h1 class="logoName"> Sweet Cake </h1>
+                </div>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta accusamus maxime quod.</p>
+
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>product</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>blogs</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>review</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>contact</a>
+
+            </div>
+            <div class="box">
+                <h3>Extra link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>order item</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>payment method</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>our  services</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+91 12222 34444</a>
+                <a href="#"> <i class="fas fa-envelope"></i>ashadesigner@gmail.com</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            created by <span>Ms.Asha Muskan </span> |all rights reserved ! 
+        </div>
+    </footer>
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
+
